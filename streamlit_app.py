@@ -13,7 +13,7 @@ X = pd.DataFrame(iris.data, columns=iris.feature_names)
 y = pd.Series(iris.target, name='target')
 
 # Streamlit app
-st.title("IRIS Classification")
+st.title("Iris Classification")
 
 # Sidebar with user input for model training
 st.sidebar.header("Set Parameters")
@@ -43,7 +43,7 @@ try:
     show_accuracy = st.sidebar.checkbox("Show Model Accuracy")
     if show_accuracy:
         accuracy = accuracy_score(y_test, y_pred)
-        st.subheader("Model Performance")
+        st.subheader("Model Accuracy")
         st.write(f"Accuracy: {accuracy:.2f}")
 
     # Display confusion matrix based on user selection
