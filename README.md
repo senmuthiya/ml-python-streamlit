@@ -1,3 +1,5 @@
+[Link to the Streamlit Demo](https://senmldemo.streamlit.app/)
+
 ## Project Overview
 
 ### Dataset: Iris Flower Classification
